@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+		<!-- Meta Data -->
+    <meta charset="utf-8">
+    <meta name="description" content="My First Web Page, with JavaScript">
+    <meta name="keywords" content="immaculata, ics2o">
+    <meta name="author" content="Van">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./fav_index/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./fav_index/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./fav_index/favicon-16x16.png">
+    <link rel="manifest" href="./fav_index/site.webmanifest">
+		<!-- Google's MDL -->
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.red-blue.min.css" />
+		<link rel="stylesheet" href="./css/gr11style.css">
+    <title>High School Future</title>
+  </head>
+  <body>
+		<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <!-- Button displaying my courses -->
+		<script>
+      function myButtonClicked() {
+        alert("I plan to take English, Functions, World Religion, French, Computer Engineering, Introduction to Computer Science and Canadian Law")
+      }
+    </script>
+    <center>
+			<h1>My Grade 11 Plan</h1>
+			<!-- Colored raised button -->
+			<button onclick="myButtonClicked()" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
+		  	Courses
+			</button>
+			<br></br>
+		</center>
+		<!-- Web page content -->
+   	<h5>Here is the <a href = "./grade12.html">link</a> to my second page about my plans for Grade 12.</h5>
+		<p>In grade 11 I plan to take several courses (which can be found by clicking the courses button) that should help me learn what I'm interested in.</p>
+		<p>The courses I mainly want to focus on are the Computer courses considering that I have a strong interest in technology and want to take Computer Science at University. In general, I should try to work hard in the coming years as universities look at those marks.</p>
+  	<center><img src="./images/compsci.png" class="monitor" alt= "compsci">
+		<!-- Radio button -->
+		<center><h5>Do you think I made the correct course selections?</h5></center>
+		<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-1">
+			<input type="radio" id="option-1" class="mdl-radio__button" name="options" value="1" checked>
+			<span class="mdl-radio__label">Yes</span>
+		</label>
+		<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-2">
+			<input type="radio" id="option-2" class="mdl-radio__button" name="options" value="2">
+			<span class="mdl-radio__label">No</span>
+		</label>
+		</center>
+	</body>
+</html>

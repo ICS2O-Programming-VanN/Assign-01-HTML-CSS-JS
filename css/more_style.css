@@ -1,0 +1,14 @@
+h1 {
+  background-color: rgb(220, 28, 19);
+  color: hsl(3°,84.1% , 46.9%);
+  padding: 40px;
+  text-align: center;
+}
+
+.carleton {
+	max-width: 30%
+}
+
+body {
+	background-color: #3A5795;
+}

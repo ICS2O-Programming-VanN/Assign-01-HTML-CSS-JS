@@ -1,0 +1,30 @@
+.calculus {
+	max-width: 30%;
+}
+
+.imh {
+	max-width: 30%
+}
+
+h1 {
+  background-color: rgb(74, 153, 118);
+  color: hsl(153°,35% , 45%);
+  padding: 40px;
+  text-align: center;
+}
+
+body {
+	background-color: #F6BE00;
+}
+
+p {
+	color: #552586;
+}
+
+h5 {
+	color: #552586;
+}
+
+h6 {
+	color: #552586;
+}

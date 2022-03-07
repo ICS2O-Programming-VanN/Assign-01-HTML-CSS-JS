@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+		<!-- Meta Data -->
+    <meta charset="utf-8">
+    <meta name="description" content="My second Web Page, Assignment 1, Unit 1">
+    <meta name="keywords" content="immaculata, ics2o">
+    <meta name="author" content="Van">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./fav_index/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./fav_index/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./fav_index/favicon-16x16.png">
+    <link rel="manifest" href="./fav_index/site.webmanifest">
+		<!-- Google's MDL -->
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.red-blue.min.css" />
+		<link rel="stylesheet" href="./css/gr12style.css">
+    <title>Grade 12 Plans</title>
+  </head>
+  <body>
+		<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <!-- Button displaying my courses -->
+		<script>
+      function myButtonClicked() {
+        alert("I plan to take English, Advanced Functions, Ethics, French, Computer Engineering, Computer Science and Calculus and Vectors")
+      }
+    </script>
+    <center>
+			<h1>My Grade 12 Plan</h1>
+			<!-- Colored raised button -->
+			<button onclick="myButtonClicked()" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
+		  	Courses
+			</button>
+			<br></br>
+		</center>
+		<!-- Web page content -->
+   	<h5>Here is the <a href = "./index.html">link</a> to my first page about my plans for Grade 11.</h5>
+		<h5>Click <a href = "./uni.html">here</a> to go to my third page about my plans for university and beyond.</h5>
+		<p>In grade 12 I have chosen several courses that are either required or will be needed for entry to my preferred university, Carleton University. For my electives, I chose Advanced Functions and Calculus because they are required for Computer Science in university. I chose Physics because I find Physics somewhat interesting and I wanted to at least take one science. Lastly, for the electives, I took Computer Engineering and Science because I really want to learn about the hardware and software of computers. I also think that the computer science course should help me out in the future with university and give me great skills to put on my resume.</p>
+		<p>Coming into Grade 12 I should have completed a summer CO-OP position somewhere and so hopefully it would have taught me some useful skills for the future. This year, I should really work as hard as I can because I want to try to achieve a 95+ average. I wish to attain that average because I would get the most scholarship money that way as university costs a lot, if I want to pursue a Master's Degree it would probably cost even more.</p>
+  	<center>
+			<img src="./images/calculus.jpg" class="calculus" alt= "compsci">
+			<h6>Use this slider to indicate how much you like Computer Science!</h6>
+
+				<!-- Slider with Starting Value -->
+		<input class="mdl-slider mdl-js-slider" type="range" min="0" max="100" value="25" tabindex="0">
+			<img src="./images/imh.png" class="imh" alt= "imh">
+		<h6>Enter what courses you would/are taking in Grade 12!</h6>
+			<!-- Simple Textfield -->
+		<form action="#">
+  		<div class="mdl-textfield mdl-js-textfield">
+    		<input class="mdl-textfield__input" type="text" id="sample1">
+    		<label class="mdl-textfield__label" for="sample1">Courses...</label>
+  		</div>
+		</form>
+		</center>
+	</body>
+</html>
