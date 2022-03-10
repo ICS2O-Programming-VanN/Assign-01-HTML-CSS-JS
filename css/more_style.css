@@ -1,3 +1,5 @@
+/* Heading and text color */
+
 h1 {
   background-color: rgb(220, 28, 19);
   color: hsl(3°,84.1% , 46.9%);
@@ -29,6 +31,8 @@ h4 {
 	color: #CC978E;
 	text-decoration: underline;
 }
+
+/* Table alignment and image resize */
 
 table {
   width: 50%;
