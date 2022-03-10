@@ -10,5 +10,57 @@ h1 {
 }
 
 body {
-	background-color: #3A5795;
+	background-color: #B7D3F2;
+}
+
+.ottawau {
+	max-width: 30%
+}
+
+p {
+	color: #4C212A;
+}
+
+h5 {
+	color: #566246;
+}
+
+h4 {
+	color: #CC978E;
+	text-decoration: underline;
+}
+
+table {
+  width: 50%;
+  border: 1px solid #000;
+}
+td, th {
+  width: 15%;
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.carletonu {
+	max-width: 100%
+}
+
+.waterloo {
+	max-width: 100%
+}
+
+.ottawau {
+	max-width: 100%
+}
+
+.ryerson {
+	max-width: 100%
+}
+
+.brock {
+	max-width: 100%
 }

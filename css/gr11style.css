@@ -1,6 +1,9 @@
+
+
 .monitor {
 	max-width: 10%;
 }
+
 
 h1 {
   background-color: rgb(0, 128, 128);
@@ -8,6 +11,7 @@ h1 {
   padding: 40px;
   text-align: center;
 }
+
 
 h5 {
 	color: #552586;
@@ -20,3 +24,4 @@ p {
 body {
 	background-color: #F6BE00;
 }
+
